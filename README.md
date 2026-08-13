@@ -1,12 +1,73 @@
-# React + Vite
+# BookList
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive book management interface built with React, Vite, and Tailwind CSS.
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+BookList is a frontend project focused on creating a clean and responsive interface for managing a collection of books.
 
-## Expanding the ESLint configuration
+The user interface was designed and implemented from scratch with a focus on simplicity, readability, and responsive layout.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+
+* Responsive book management interface
+* Book information form with title, author, and publication year fields
+* Structured book list table
+* Responsive layout for different screen sizes
+* Custom UI design
+* Icon-based interface using Lucide React
+
+## Tech Stack
+
+* React
+* Vite
+* JavaScript
+* Tailwind CSS
+* Sass
+* Lucide React
+
+## Project Structure
+
+```text
+src/
+├── bookList/
+│   ├── BookList.jsx
+│   └── BookList.scss
+├── App.jsx
+├── App.scss
+└── main.jsx
+```
+
+## Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Mrymindigo/bookList-app.git
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
+
+```bash
+npm run dev
+```
+
+The application will be available at the local development URL provided by Vite.
+
+## Purpose
+
+This project was created as a frontend development project to practice React component development, responsive UI implementation, and modern CSS styling.
+
+## Future Improvements
+
+* Add and remove books dynamically
+* Edit existing books
+* Search and filter books
+* Persist book data using local storage or an API
+* Add form validation
